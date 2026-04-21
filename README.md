@@ -8,15 +8,17 @@ A simple yet effective **open source** inventory management system created to he
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Quick Start](#quick-start)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Quick Start](#-quick-start)
+- [Installation](#%EF%B8%8F-installation)
+- [Usage](#-usage)
+- [Development](#-development)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Open Source Philosophy](#-open-source-philosophy)
+- [Support](#-support)
 
 ## 🎯 Overview
 
@@ -46,7 +48,6 @@ Inventory/
 ### Directory Details
 
 - **AppV3**: Contains pre-compiled executable files ready for immediate use. Simply download and run without any setup required.
-  
 - **inventoryv2**: Contains the main source code written in C++ and Python. Use this directory if you want to:
   - Understand how the system works
   - Modify the code for custom requirements
@@ -58,24 +59,24 @@ Inventory/
 ### For Users (Quick Setup)
 
 1. Navigate to the [AppV3](./AppV3) directory
-2. Download the appropriate executable for your operating system
-3. Run the executable file
-4. Start managing your inventory!
+1. Download the appropriate executable for your operating system
+1. Run the executable file
+1. Start managing your inventory!
 
 ### For Developers
 
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/Da8K7Oul/Inventory.git
    cd Inventory
    ```
-
-2. Navigate to the source code directory:
+1. Navigate to the source code directory:
+   
    ```bash
    cd inventoryv2
    ```
-
-3. Compile the code (instructions below)
+1. Compile the code (instructions below)
 
 ## 🛠️ Installation
 
@@ -90,11 +91,13 @@ Inventory/
 ### Compiling from Source
 
 #### On Windows
+
 ```bash
 g++ main.cpp -o inventory.exe
 ```
 
 #### On Linux/macOS
+
 ```bash
 g++ main.cpp -o inventory
 chmod +x inventory
@@ -106,20 +109,18 @@ chmod +x inventory
 ### Basic Operations
 
 1. **Starting the Application**
-   - Run the executable from AppV3, or
-   - Compile and run from source
-
-2. **Managing Inventory**
-   - Follow the on-screen menu prompts
-   - Select options to add, view, update, or delete inventory items
-
-3. **Data Storage**
-   - Inventory data is stored locally
-   - Ensure you have write permissions in the installation directory
+- Run the executable from AppV3, or
+- Compile and run from source
+1. **Managing Inventory**
+- Follow the on-screen menu prompts
+- Select options to add, view, update, or delete inventory items
+1. **Data Storage**
+- Inventory data is stored locally
+- Ensure you have write permissions in the installation directory
 
 ### Common Tasks
 
-- **Add New Product**: Select the "Add Product" option and enter product details
+- **Add New Product**: Select the “Add Product” option and enter product details
 - **View Inventory**: Display all current stock items
 - **Update Stock**: Modify quantities or product information
 - **Remove Product**: Delete items from the inventory database
@@ -134,6 +135,7 @@ chmod +x inventory
 ### Code Structure
 
 The `inventoryv2` directory contains the modular source code:
+
 - Core inventory management logic
 - Data persistence layer
 - User interface components
@@ -154,22 +156,25 @@ g++ -o inventory main.cpp
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how you can help:
+Contributions are welcome! Here’s how you can help:
 
 1. **Fork the repository**
-2. **Create a feature branch**
+1. **Create a feature branch**
+   
    ```bash
    git checkout -b feature/AmazingFeature
    ```
-3. **Commit your changes**
+1. **Commit your changes**
+   
    ```bash
    git commit -m 'Add some AmazingFeature'
    ```
-4. **Push to the branch**
+1. **Push to the branch**
+   
    ```bash
    git push origin feature/AmazingFeature
    ```
-5. **Open a Pull Request**
+1. **Open a Pull Request**
 
 ### Contribution Guidelines
 
@@ -180,7 +185,7 @@ Contributions are welcome! Here's how you can help:
 
 ## 📝 License
 
-This project is **open source** and **free to use**. 
+This project is **open source** and **free to use**.
 
 - ✅ Free for personal use
 - ✅ Free for educational use
@@ -188,7 +193,7 @@ This project is **open source** and **free to use**.
 - ✅ Modify and distribute freely
 - ❌ **Not for monetization** - This project should remain free and accessible to everyone
 
-This software is provided "as is", without warranty of any kind. Feel free to use, modify, and share, but please keep it free and open for the community.
+This software is provided “as is”, without warranty of any kind. Feel free to use, modify, and share, but please keep it free and open for the community.
 
 ## 👤 Author
 
@@ -196,7 +201,7 @@ This software is provided "as is", without warranty of any kind. Feel free to us
 
 ## 🙏 Acknowledgments
 
-- Created to help manage uncle's shop operations
+- Created to help manage uncle’s shop operations
 - Built with simplicity and efficiency in mind
 - Thanks to all contributors and users
 
@@ -213,10 +218,11 @@ This project was created to help small shop owners manage their inventory withou
 ## 📞 Support
 
 If you encounter any issues or have questions:
+
 - Open an [issue](https://github.com/Da8K7Oul/Inventory/issues)
 - Contact the repository owner
 
----
+-----
 
 **Note**: This is a practical inventory management solution designed for small to medium retail operations. For enterprise-level solutions, additional features and scalability considerations may be required.
 
@@ -224,5 +230,6 @@ If you encounter any issues or have questions:
 
 Check the [commits history](https://github.com/Da8K7Oul/Inventory/commits/main/) for the latest changes and improvements.
 
----
+-----
+
 **Star this repository** ⭐ if you find it helpful!
